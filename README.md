@@ -15,5 +15,8 @@
 | 5 | Optimization | Pinecone |
 | 6 | Evaluation | Accuracy & Relevance |
 
+## Step 2: Data Preparation
+![Uploading image.png…]()
+
 ## Notes (Things I find helpful to keep in mind)
 * Web scraping is **extract and download** content from a webpage and the data is saved to the local machine. On the other hand, web crawling uses a web scrawler or spider to **index** web pages.
