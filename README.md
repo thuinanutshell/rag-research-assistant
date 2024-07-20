@@ -1,5 +1,10 @@
 # Building A Chatbot Using Retrieval Augmented Generation (RAG)
 
+## Goal
+* Learn how to crawl a large amount of data using Scrapy & BeautifulSoup
+* Learn how to transform the data optimally
+* Compare the performance of different LLMs models
+
 ## Step 1: Planning
 | Step | Objective | Library/Model |
 | --- | --- | --- |
