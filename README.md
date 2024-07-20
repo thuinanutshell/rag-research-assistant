@@ -16,7 +16,8 @@
 | 6 | Evaluation | Accuracy & Relevance |
 
 ## Step 2: Data Preparation
-![Uploading image.png…]()
+<img width="620" alt="Screenshot 2024-07-20 at 10 01 04 PM" src="https://github.com/user-attachments/assets/01934ddf-0ef5-4ead-96c3-138e285603b2">
+
 
 ## Notes (Things I find helpful to keep in mind)
 * Web scraping is **extract and download** content from a webpage and the data is saved to the local machine. On the other hand, web crawling uses a web scrawler or spider to **index** web pages.
