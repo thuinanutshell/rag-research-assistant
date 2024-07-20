@@ -19,5 +19,12 @@
 ## Step 2: Data Preparation
 
 
-## Notes (Things I find helpful to keep in mind)
-* Web scraping is **extract and download** content from a webpage and the data is saved to the local machine. On the other hand, web crawling uses a web scrawler or spider to **index** web pages.
+## Step 3: Data Transformation
+
+## Step 4: Integrate LLM APIs
+
+## Step 5: Optimization
+
+## Step 6: Evaluation
+
+## Key Learnings
