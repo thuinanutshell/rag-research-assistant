@@ -1,5 +1,5 @@
 # Building A Chatbot Using Retrieval Augmented Generation (RAG)
-<img width="1355" alt="Screenshot 2024-07-21 at 2 00 03 AM" src="https://github.com/user-attachments/assets/475542f4-63be-47e5-aed1-29468eab8349">
+<img width="1341" alt="Screenshot 2024-07-21 at 2 03 46 AM" src="https://github.com/user-attachments/assets/75afce4b-470e-46cb-87bf-8685851173fd">
 
 ## Goal
 * Learn how to crawl a large amount of data using Scrapy & BeautifulSoup
