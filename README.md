@@ -2,6 +2,7 @@
 <img width="1341" alt="Screenshot 2024-07-21 at 2 03 46 AM" src="https://github.com/user-attachments/assets/75afce4b-470e-46cb-87bf-8685851173fd">
 
 ## Goal
+The chatbot can answer questions related to LlamaIndex's blog posts: https://www.llamaindex.ai/blog
 * Learn how to crawl a large amount of data using Scrapy & BeautifulSoup
 * Learn how to transform the data optimally
 * Compare the performance of different LLM models
