@@ -1,7 +1,7 @@
 # Building A Chatbot Using Retrieval Augmented Generation (RAG)
 <img width="1341" alt="Screenshot 2024-07-21 at 2 03 46 AM" src="https://github.com/user-attachments/assets/75afce4b-470e-46cb-87bf-8685851173fd">
 
-## Goal
+## Overview
 The chatbot can answer questions related to LlamaIndex's blog posts: https://www.llamaindex.ai/blog
 * Learn how to crawl a large amount of data using Scrapy & BeautifulSoup
 * Learn how to transform the data optimally
@@ -18,7 +18,7 @@ The chatbot can answer questions related to LlamaIndex's blog posts: https://www
 | 6 | Evaluation | Accuracy & Relevance |
 
 ## Step 2: Data Preparation
-
+The goal is to crawl the data of 160 blog posts on the LlamaIndex website. Each blog post item should contain three elements: the URL, title, and content. The content consists of text, code, and figures/images. Therefore, I have to make sure that I crawl sufficient content in different formats and preprocess them later.
 
 ## Step 3: Data Transformation
 
