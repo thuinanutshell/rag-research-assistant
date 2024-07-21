@@ -15,17 +15,20 @@ class BlogPosts(scrapy.Spider):
             title = blog.css('a::text').get()
             link = blog.css('a::attr(href)').get()
 
-           # Return the list consisting of title and link
+           # Add items to the blog_lists list
             if title is not None:
                 blog_lists.append({
                     'title': title,
-                    'link': response.urljoin(link) 
+                    'link': response.urljoin(link) # convert to absolute urls
                })
+        # Return a dictionary with the key 'blogs' and its value
         yield {'blogs': blog_lists}
 
+        # Loop through each href link in the blog_lists and request from each blog link
         for blog in blog_lists:
             yield scrapy.Request(blog['link'], callback=self.parse_blog_content)
-     
+
+    # Create another function to get the content from each url 
     def parse_blog_content(self, response):
         content = response.css("div.BlogPost_htmlPost__Z5oDL p::text").getall()
         yield {
