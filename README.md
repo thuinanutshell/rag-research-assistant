@@ -18,9 +18,13 @@ The chatbot can answer questions related to LlamaIndex's blog posts: https://www
 | 6 | Evaluation | Accuracy & Relevance |
 
 ## Step 2: Data Preparation
-The goal is to crawl the data of 160 blog posts on the LlamaIndex website. Each blog post item should contain three elements: the URL, title, and content. The content consists of text, code, and figures/images. Therefore, I have to make sure that I crawl sufficient content in different formats and preprocess them later.
+The goal is to crawl the data of 160 blog posts on the LlamaIndex website. Each blog post item should contain the URL, title, and content. The content consists of text, code, and figures/images. Therefore, I must ensure that I crawl sufficient content in different formats and preprocess them later.
 
 ## Step 3: Data Transformation
+### Chunking
+### Text Preprocessing
+### Tokenization
+### Vector Embeddings
 
 ## Step 4: Integrate LLM APIs
 
