@@ -18,7 +18,7 @@ The chatbot can answer questions related to LlamaIndex's blog posts: https://www
 | 6 | Evaluation | Accuracy & Relevance |
 
 ## Step 2: Data Preparation
-The goal is to crawl the data of 160 blog posts on the LlamaIndex website. Each blog post item should contain the URL, title, and content. The content consists of text, code, and figures/images. Therefore, I must ensure that I crawl sufficient content in different formats and preprocess them later.
+The goal is to crawl the data of 160 blog posts on the LlamaIndex website. Each blog post item should contain the URL, title, and content. The content consists of text, code, and figures/images. So, I need to make sure that I crawl sufficient content in different formats and preprocess them later.
 
 ## Step 3: Data Transformation
 ### Chunking
@@ -33,3 +33,4 @@ The goal is to crawl the data of 160 blog posts on the LlamaIndex website. Each 
 ## Step 6: Evaluation
 
 ## Key Learnings
+- Always start small. I was struggling at first to understand the chunking part. It took me 2 days to process a large dataset of blog posts. When the dataset is large, you get overwhelmed easily. So I decided to play around with only one single blog post to understand the underlying mechanism of chunking. And it worked :) By breaking a big problem down into smaller pieces and go from there, everything is more manageable.
