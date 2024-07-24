@@ -32,5 +32,6 @@ The goal is to crawl the data of 160 blog posts on the LlamaIndex website. Each 
 
 ## Step 6: Evaluation
 
-## Key Learnings
-- Always start small. I was struggling at first to understand the chunking part. It took me 2 days to process a large dataset of blog posts. When the dataset is large, you get overwhelmed easily. So I decided to play around with only one single blog post to understand the underlying mechanism of chunking. And it worked :) By breaking a big problem down into smaller pieces and go from there, everything is more manageable.
+## Progress Update
+- Always start small. I was struggling at first to understand the chunking part. It took me 2 days to process a large dataset of blog posts. When the dataset is large, you get overwhelmed easily. So I decided to play around with only one single blog post to understand the underlying mechanism of chunking. And it worked :) By breaking a big problem down into smaller pieces and going from there, everything is more manageable.
+- I got the RAG to work with 160 blog posts! I still need to refine it a little bit and also experiment with different chunking strategies + think about how to measure the efficiency of my RAG but it's still a good start since yesterday :) Also, I've learned to treat GitHub as an ongoing learning and project update instead of just somewhere to put on your project once you finish. 
