@@ -21,13 +21,14 @@ The chatbot can answer questions related to LlamaIndex's blog posts: https://www
 The goal is to crawl the data of 160 blog posts on the LlamaIndex website. Each blog post item should contain the URL, title, and content. The content consists of text, code, and figures/images. So, I need to make sure that I crawl sufficient content in different formats and preprocess them later.
 
 ## Step 3: Data Transformation
-### Chunking
 ### Text Preprocessing
-### Tokenization
+After scraping the content from 160 blog posts. I removed special characters such as emojis and transformed the text into lowercase.
+### Chunking
+I used SentenceSplitter() of LlamaIndex to split each document into smaller chunks.
 ### Vector Embeddings
-
+Then I stored the nodes in a vector store.
 ## Step 4: Integrate LLM APIs
-
+I used Gemini model.
 ## Step 5: Optimization
 
 ## Step 6: Evaluation
