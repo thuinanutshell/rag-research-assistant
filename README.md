@@ -11,4 +11,4 @@
 
 - [ ] Discuss papers with friends
 - [ ] Knowledge graph of different papers and shared concepts
-- [ ] # Perform gap analysis
+- [ ] Perform gap analysis
